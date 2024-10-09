@@ -1,0 +1,9 @@
+CREATE TABLE feedback (
+    id SERIAL PRIMARY KEY,
+    feedback_date DATE,
+    feedback_time TIME,
+    username VARCHAR(100),
+    comments TEXT,
+    rating INT,
+    form_source VARCHAR(255)
+);
